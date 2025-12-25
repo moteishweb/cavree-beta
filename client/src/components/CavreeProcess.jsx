@@ -6,7 +6,7 @@ const steps = [
     title: "Personal Consultation",
     desc:
       "Meet with your dedicated stylist to discuss your vision, lifestyle, and preferences. We'll guide you through our exclusive fabric collection and design options.",
-    img: "https://images.unsplash.com/photo-1519741497674-611481863552",
+    img: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "left",
   },
   {
@@ -14,7 +14,7 @@ const steps = [
     title: "Precision Measurements",
     desc:
       "30 precise measurements taken by master tailors. Every contour, every preference—captured to ensure a perfect fit that feels like a second skin.",
-    img: "https://images.unsplash.com/photo-1520974735194-6c2c9d39d0a1",
+    img: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "right",
   },
   {
@@ -22,7 +22,7 @@ const steps = [
     title: "Expert Craftsmanship",
     desc:
       "Our master tailors—with decades of experience—hand-craft your garment. Every stitch placed with precision, every seam finished to perfection.",
-    img: "https://images.unsplash.com/photo-1520975916090-3105956dac38",
+    img: "https://images.unsplash.com/photo-1506765335903-9371a84e7c41?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "left",
   },
   {
@@ -30,7 +30,7 @@ const steps = [
     title: "White Glove Delivery",
     desc:
       "Your masterpiece arrives in premium packaging, ready to elevate your wardrobe. Complimentary worldwide shipping, insured and tracked.",
-    img: "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb",
+    img: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "right",
   },
 ];

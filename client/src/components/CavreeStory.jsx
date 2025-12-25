@@ -70,7 +70,7 @@ const CavreeStory = () => {
           {/* Right image card */}
           <div className="relative rounded-3xl overflow-hidden shadow-[0_30px_70px_rgba(0,0,0,0.25)]">
             <img
-              src="https://images.unsplash.com/photo-1520975867597-0f36c1f9c82f"
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop&crop=center&auto=format"
               alt="Luxury tailoring"
               className="w-full h-[420px] object-cover"
             />
