@@ -18,7 +18,7 @@ const CavreeStory = () => {
 
         {/* Heading */}
         <h2 className="mt-10 text-center font-serif text-5xl md:text-6xl leading-tight">
-          <span className="text-[#4cc3d9]">Luxury Fashion,</span>
+          <span className="text-[#4cc3d9]">Legacy Planning,</span>
           <br />
           <span className="text-[#1f2937]">Redefined for the Elite</span>
         </h2>
@@ -36,26 +36,26 @@ const CavreeStory = () => {
           {/* Left text */}
           <div>
             <h3 className="font-serif text-3xl text-[#1f3b4d]">
-              More Than Fashion.
+              More Than Planning.
               <br />
-              A Statement of Excellence.
+              A Statement of Legacy.
             </h3>
 
             <p className="mt-6 text-[#5c7486] leading-relaxed">
-              In a world saturated with fast fashion and mass production,
-              Cavree stands as a beacon of true luxury. We don’t just create
-              clothing — we craft wearable art for the discerning few who
+              In a world saturated with generic solutions and one-size-fits-all approaches,
+              Cavree stands as a beacon of true legacy planning. We don't just create
+              documents — we craft enduring legacies for the discerning few who
               understand that exclusivity is the ultimate luxury.
             </p>
 
             <p className="mt-6 text-[#5c7486] leading-relaxed">
-              Every garment begins with{" "}
+              Every legacy plan begins with{" "}
               <span className="text-[#4cc3d9] font-semibold">
-                premium Italian wool, hand-selected Egyptian cotton,
+                comprehensive asset analysis, strategic wealth preservation,
               </span>{" "}
-              and rare Scottish cashmere. Our master tailors — each with decades
-              of experience — transform these fabrics into pieces that become
-              part of your identity.
+              and personalized family governance. Our expert planners — each with decades
+              of experience — transform these insights into strategies that become
+              part of your enduring legacy.
             </p>
 
             <p className="mt-6 text-[#5c7486] leading-relaxed">
@@ -70,18 +70,18 @@ const CavreeStory = () => {
           {/* Right image card */}
           <div className="relative rounded-3xl overflow-hidden shadow-[0_30px_70px_rgba(0,0,0,0.25)]">
             <img
-              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop&crop=center&auto=format"
-              alt="Luxury tailoring"
+              src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&h=600&fit=crop&crop=center&auto=format"
+              alt="Legacy planning consultation"
               className="w-full h-[420px] object-cover"
             />
 
             {/* Overlay text */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent p-8 flex flex-col justify-end">
               <h4 className="font-serif text-white text-2xl">
-                Precision Tailoring
+                Strategic Legacy Planning
               </h4>
               <p className="mt-2 text-white/80">
-                Every stitch, every seam — perfection.
+                Every strategy, every detail — perfected.
               </p>
             </div>
           </div>
@@ -91,10 +91,10 @@ const CavreeStory = () => {
         <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
 
           {[
-            { value: "50+", label: "FABRIC OPTIONS" },
-            { value: "15+", label: "MASTER TAILORS" },
-            { value: "30", label: "MEASUREMENTS" },
-            { value: "72hrs", label: "CRAFTING TIME" },
+            { value: "50+", label: "PLANNING OPTIONS" },
+            { value: "15+", label: "EXPERT PLANNERS" },
+            { value: "30", label: "ASSET CATEGORIES" },
+            { value: "72hrs", label: "PLAN DELIVERY" },
           ].map((item, index) => (
             <div key={index}>
               <div className="font-serif text-4xl text-[#4cc3d9]">

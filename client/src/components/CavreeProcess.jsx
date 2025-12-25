@@ -5,32 +5,32 @@ const steps = [
     step: "1",
     title: "Personal Consultation",
     desc:
-      "Meet with your dedicated stylist to discuss your vision, lifestyle, and preferences. We'll guide you through our exclusive fabric collection and design options.",
-    img: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop&crop=center&auto=format",
+      "Meet with your legacy planning specialist to discuss your vision, values, and goals. We'll guide you through our comprehensive estate planning options and wealth preservation strategies.",
+    img: "https://images.unsplash.com/photo-1515378791036-bafc5e65853e?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "left",
   },
   {
     step: "2",
     title: "Precision Measurements",
     desc:
-      "30 precise measurements taken by master tailors. Every contour, every preference—captured to ensure a perfect fit that feels like a second skin.",
-    img: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop&crop=center&auto=format",
+      "Comprehensive assessment of your assets, family structure, and legacy goals. Every detail, every preference—captured to ensure your legacy is preserved exactly as you envision.",
+    img: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "right",
   },
   {
     step: "3",
     title: "Expert Craftsmanship",
     desc:
-      "Our master tailors—with decades of experience—hand-craft your garment. Every stitch placed with precision, every seam finished to perfection.",
-    img: "https://images.unsplash.com/photo-1506765335903-9371a84e7c41?w=800&h=600&fit=crop&crop=center&auto=format",
+      "Our expert estate planners—with decades of experience—craft your legacy plan. Every document prepared with precision, every strategy tailored to perfection.",
+    img: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "left",
   },
   {
     step: "4",
     title: "White Glove Delivery",
     desc:
-      "Your masterpiece arrives in premium packaging, ready to elevate your wardrobe. Complimentary worldwide shipping, insured and tracked.",
-    img: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop&crop=center&auto=format",
+      "Your comprehensive legacy plan arrives in premium documentation, ready to secure your family's future. Complimentary secure delivery, legally validated and tracked.",
+    img: "https://images.unsplash.com/photo-1609845318941-5345c3b5d6f0?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "right",
   },
 ];
