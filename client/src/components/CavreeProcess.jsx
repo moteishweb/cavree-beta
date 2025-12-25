@@ -6,7 +6,7 @@ const steps = [
     title: "Personal Consultation",
     desc:
       "Meet with your legacy planning specialist to discuss your vision, values, and goals. We'll guide you through our comprehensive estate planning options and wealth preservation strategies.",
-    img: "https://images.unsplash.com/photo-1515378791036-bafc5e65853e?w=800&h=600&fit=crop&crop=center&auto=format",
+    img: "https://images.unsplash.com/photo-1445205170230-053b83016050?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "left",
   },
   {
@@ -14,7 +14,7 @@ const steps = [
     title: "Precision Measurements",
     desc:
       "Comprehensive assessment of your assets, family structure, and legacy goals. Every detail, every preference—captured to ensure your legacy is preserved exactly as you envision.",
-    img: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&h=600&fit=crop&crop=center&auto=format",
+    img: "https://images.unsplash.com/photo-1659890080812-176a804498a4?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "right",
   },
   {
@@ -22,7 +22,7 @@ const steps = [
     title: "Expert Craftsmanship",
     desc:
       "Our expert estate planners—with decades of experience—craft your legacy plan. Every document prepared with precision, every strategy tailored to perfection.",
-    img: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=600&fit=crop&crop=center&auto=format",
+    img: "https://images.unsplash.com/photo-1580418835996-7783da1c3c6c?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "left",
   },
   {
@@ -30,7 +30,7 @@ const steps = [
     title: "White Glove Delivery",
     desc:
       "Your comprehensive legacy plan arrives in premium documentation, ready to secure your family's future. Complimentary secure delivery, legally validated and tracked.",
-    img: "https://images.unsplash.com/photo-1609845318941-5345c3b5d6f0?w=800&h=600&fit=crop&crop=center&auto=format",
+    img: "https://images.unsplash.com/photo-1555529669-26f9d103abdd?w=800&h=600&fit=crop&crop=center&auto=format",
     align: "right",
   },
 ];
