@@ -59,11 +59,8 @@ const CavreeStory = () => {
             </p>
 
             <p className="mt-6 text-[#5c7486] leading-relaxed">
-              With only{" "}
-              <span className="text-[#4cc3d9] font-semibold">
-                3,339 members per nation,
-              </span>{" "}
-              your membership isn’t just exclusive — it’s extraordinary.
+              With limited membership per nation, your membership isn’t just
+              exclusive — it’s extraordinary.
             </p>
           </div>
 

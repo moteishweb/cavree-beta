@@ -95,11 +95,7 @@ const Hero = () => {
           transition={{ delay: 0.4, duration: 0.8 }}
           className="mt-10 max-w-3xl mx-auto text-sm sm:text-base md:text-lg text-[#1f3b4d] leading-relaxed"
         >
-          Join an exclusive circle of only{" "}
-          <span className="text-[#4cc3d9] font-semibold">
-            <Counter end={3339} />
-          </span>{" "}
-          members per nation.
+          Join an exclusive circle with limited membership per nation.
           <br className="hidden sm:block" />
           Experience bespoke garments crafted with unparalleled precision and
           luxury fabrics.
@@ -143,7 +139,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
           {[
-            { value: <Counter end={3339} />, label: "MEMBERS PER COUNTRY" },
+            { value: "Limited", label: "MEMBERSHIP ACCESS" },
             { value: "12", label: "GARMENTS PER YEAR" },
             { value: "100%", label: "BESPOKE TAILORED" },
           ].map((item, index) => (

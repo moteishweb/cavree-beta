@@ -23,11 +23,7 @@ const CavreeFooter = () => {
             </p>
 
             <p className="mt-4 text-sm italic text-[#7b8a9a] leading-relaxed">
-              Exclusive membership limited to{" "}
-              <span className="font-semibold text-[#4cc3d9]">
-                3,339 members
-              </span>{" "}
-              per country.
+              Exclusive membership is limited per country.
             </p>
           </div>
 
