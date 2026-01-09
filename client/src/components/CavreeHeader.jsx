@@ -3,6 +3,14 @@ import React, { useState } from "react";
 const CavreeHeader = () => {
   const [open, setOpen] = useState(false);
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    setOpen(false);
+  };
+
   return (
     <header className="fixed top-4 left-0 right-0 z-50 px-4 sm:px-6 md:px-12">
       <div className="relative max-w-7xl mx-auto bg-white/80 backdrop-blur-xl rounded-full shadow-lg px-6 md:px-10 py-3 md:py-4">
@@ -21,15 +29,18 @@ const CavreeHeader = () => {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-[#1f3b4d]">
-              <a href="#" className="hover:text-[#4cc3d9] transition">
+              <button onClick={() => scrollToSection('hero')} className="hover:text-[#4cc3d9] transition">
                 Home
-              </a>
-              <a href="#" className="hover:text-[#4cc3d9] transition">
+              </button>
+              <button onClick={() => scrollToSection('cavree-story')} className="hover:text-[#4cc3d9] transition">
                 About
-              </a>
-              <a href="#" className="hover:text-[#4cc3d9] transition">
+              </button>
+              <button onClick={() => scrollToSection('franchise')} className="hover:text-[#4cc3d9] transition">
+                Franchise
+              </button>
+              <button onClick={() => scrollToSection('begin-your-legacy')} className="hover:text-[#4cc3d9] transition">
                 Contact
-              </a>
+              </button>
             </nav>
 
             {/* Login Button */}
@@ -68,15 +79,18 @@ const CavreeHeader = () => {
           }`}
         >
           <nav className="flex flex-col text-sm font-medium text-[#1f3b4d]">
-            <a onClick={() => setOpen(false)} className="px-6 py-4 hover:bg-[#f1fbfd]">
+            <button onClick={() => scrollToSection('hero')} className="px-6 py-4 hover:bg-[#f1fbfd] text-left">
               Home
-            </a>
-            <a onClick={() => setOpen(false)} className="px-6 py-4 hover:bg-[#f1fbfd]">
+            </button>
+            <button onClick={() => scrollToSection('cavree-story')} className="px-6 py-4 hover:bg-[#f1fbfd] text-left">
               About
-            </a>
-            <a onClick={() => setOpen(false)} className="px-6 py-4 hover:bg-[#f1fbfd]">
+            </button>
+            <button onClick={() => scrollToSection('franchise')} className="px-6 py-4 hover:bg-[#f1fbfd] text-left">
+              Franchise
+            </button>
+            <button onClick={() => scrollToSection('begin-your-legacy')} className="px-6 py-4 hover:bg-[#f1fbfd] text-left">
               Contact
-            </a>
+            </button>
 
             <button className="m-4 px-6 py-3 rounded-full bg-gradient-to-r from-[#4cc3d9] to-[#2a7fa3] text-white shadow">
               Login

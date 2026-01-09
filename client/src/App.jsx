@@ -8,6 +8,7 @@ import CavreeStory from './components/CavreeStory'
 import MembershipBenefits from './components/MembershipBenefits'
 import CavreeProcess from './components/CavreeProcess'
 import BeginYourLegacy from './components/BeginYourLegacy'
+import Franchise from './components/Franchise'
 import CavreeFooter from './components/CavreeFooter'
 import CavreeHeader from './components/CavreeHeader'
 
@@ -23,9 +24,9 @@ function App() {
     <CavreeStory/>
     <MembershipBenefits/>
     <CavreeProcess/>
+    <Franchise/>
     <BeginYourLegacy/>
     <CavreeFooter/>
-    <CavreeHeader/>
     </>
   )
 }

@@ -32,7 +32,7 @@ const Counter = ({ end, duration = 2000 }) => {
 ========================= */
 const Hero = () => {
   return (
-    <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-x-hidden bg-gradient-to-br from-[#f4fbfc] via-[#eef7fa] to-[#d9eef4]">
+    <div id="hero" className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-x-hidden bg-gradient-to-br from-[#f4fbfc] via-[#eef7fa] to-[#d9eef4]">
 
       {/* ================= Top Badge ================= */}
       <motion.div

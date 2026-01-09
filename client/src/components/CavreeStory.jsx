@@ -2,7 +2,7 @@ import React from "react";
 
 const CavreeStory = () => {
   return (
-    <section className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-x-hidden bg-gradient-to-br from-[#fbfefe] via-[#f1fbfd] to-[#e4f5f9]">
+    <section id="cavree-story" className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-x-hidden bg-gradient-to-br from-[#fbfefe] via-[#f1fbfd] to-[#e4f5f9]">
 
       {/* soft background glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_65%_35%,rgba(76,195,217,0.25),transparent_45%)]" />
